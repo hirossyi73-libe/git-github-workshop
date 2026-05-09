@@ -1,0 +1,40 @@
+body {
+  font-family: "Hiragino Sans", "Meiryo", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.name {
+  font-size: 28px;
+  margin: 0 0 8px;
+  color: #1e1e1e;
+}
+
+.greeting {
+  font-size: 16px;
+  color: #5f6368;
+  margin: 0;
+}
